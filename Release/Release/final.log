@@ -1,0 +1,36 @@
+﻿Build started 2014/3/9 9:48:19.
+     1>Project "E:\MFC\五子棋\final\final\final.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "E:\MFC\五子棋\final\Release\".
+       InitializeBuildStatus:
+         Creating "Release\final.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\final.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\final.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt final.cpp finalDoc.cpp finalView.cpp MainFrm.cpp
+         final.cpp
+         finalDoc.cpp
+         finalView.cpp
+         MainFrm.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /l"0x0804" /IRelease\ /nologo /fo"Release\final.res" final.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\MFC\五子棋\final\Release\final.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\final.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\MFC\五子棋\final\Release\final.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\MFC\五子棋\final\Release\final.lib" /MACHINE:X86 Release\final.res
+         Release\final.obj
+         Release\finalDoc.obj
+         Release\finalView.obj
+         Release\MainFrm.obj
+         Release\stdafx.obj
+         Generating code
+         Finished generating code
+         final.vcxproj -> E:\MFC\五子棋\final\Release\final.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\MFC\五子棋\final\Release\final.exe;#1" /manifest Release\final.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\final.unsuccessfulbuild".
+         Touching "Release\final.lastbuildstate".
+     1>Done Building Project "E:\MFC\五子棋\final\final\final.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:20.15
